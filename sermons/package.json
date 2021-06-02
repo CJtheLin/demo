@@ -1,0 +1,14 @@
+{
+  "name": "@ihsankahveci/sermons",
+  "main": "eae1d501c6957216@769.js",
+  "version": "769.0.0",
+  "homepage": "https://observablehq.com/@ihsankahveci/sermons",
+  "author": {
+    "name": "Ihsan Kahveci",
+    "url": "https://observablehq.com/@ihsankahveci"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
