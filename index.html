@@ -1,21 +1,87 @@
-<!DOCTYPE html>
-
-<style>
-body {
-  background-color: #beede8;
+<!DOCTYPE HTML>
+<html xml:lang="en" lang="en">
+<head>
+  <title>CSE512 | Final Project</title>
+  <style media="all">
+* { padding: 0; margin: 0; }
+ body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  font-family: "Avenir", "Avenir Next", Helvetica Neue, Arial;
+  font-size: 0.95em;
 }
-  
-iframe {
-  background-color: white;  
+ a, a:visited { text-decoration: none; color: #7533f4; }
+a:hover { text-decoration: underline; color: #f4b014; }
+ h1, h2, h3, h4, h5 {
+  color: #492a7c;
+  background-color: inherit;
+  font-weight: normal;
+  padding: 0 0 5px 0;
+  margin: 15px 0 0 0;
+  border: none;
+  clear: right;
 }
-  
-</style>
+h1 { font-size: 24pt; margin:  5px 0 10px 0; line-height: 28px; }
+h2 { font-size: 14pt; margin: 30px 0 15px 0; letter-spacing: 0.01em; border-bottom: 1px solid #ccc;  line-height: 20px;}
+h3 { font-size: 13pt; }
+h4 { font-size: 12pt; }
+h5 { font-size: 11pt; }
+p { margin: 0 0 10px 0; }
+ .content {
+  margin: 0;
+  padding: 15px 20px;
+  background-color: #ffffff;
+}
+ .title, .title h1, .title a {
+  color: #492a7c;
+  font-size: 24pt;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+ .footer {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding-top: 4px;
+  text-align: right;
+  font-size: 12px;
+}
+.footer a {
+  color: #21346B;
+}
+.footer a:hover {
+  color: #ce3333;
+}
+  </style>
+</head>
 <body>
-   <div id="observablehq-1118a528" style="margin-right: 150px; margin-left: 150px;"></div> 
+<div class="content">
+   <section class="title">
+    <a href="">Pulse of a nation</a>
+  </section>
 
-  <script type="module">
-  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-  import define from "https://api.observablehq.com/@ihsankahveci/sermons.js?v=3";
-  new Runtime().module(define, Inspector.into("#observablehq-1118a528"));
-  </script>
+   <section>
+    <p>
+      <strong>Team Members</strong>: Ihsan Kahveci, Melih Yilmaz, CJ Lin, Gibbs Geng
+    </p>
+  </section>
+
+  <section>
+    <h2>Final Project</h2>
+    <div id="observablehq-1118a528" style="margin-right: 150px; margin-left: 150px;"></div> 
+
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    import define from "https://api.observablehq.com/@ihsankahveci/sermons.js?v=3";
+    new Runtime().module(define, Inspector.into("#observablehq-1118a528"));
+    </script>
+  </section>
+
+  <div class="footer">
+    <a href="https://courses.cs.washington.edu/courses/cse512/21sp/">CSE 512 Data Visualization</a>
+    <a href="http://www.washington.edu">University of Washington</a>
+  </div>
+ </div>
 </body>
+</html> 
+
